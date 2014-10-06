@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
 		<meta name="author" content="netEmedia" />
-		<title>Site intranet M2L - Réservation des salles</title>
+		<title>Site intranet M2L - Acceuil Administrateur</title>
 		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -19,6 +19,9 @@
 			<div class="container">
 				<div class="navbar-header">
 					<p class="navbar-brand">M2L - Réservation des salles</p>
+                                        <p class="navbar-brand">Utilisateur</p>
+                                        <p class="navbar-brand">Salles</p>
+                                        <p class="navbar-brand">Réservation</p>
 				</div>
 			</div>
 		</div>
