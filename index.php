@@ -18,7 +18,7 @@
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<p class="navbar-brand">M2L - Réservation des salles</p>
+					<p class="navbar-brand">M2L - Accueil</p>
 				</div>
 			</div>
 		</div>
@@ -26,16 +26,19 @@
 			<div>
 				<h1>Accueil du site</h1>
 				<p class="lead">Veuillez saisir vos informations de connexion :</p>
-				<form role="form" action="index.php" method="post">
-					<div class="form-group">
-						<label for="identifiant">Identifiant</label>
+				<form method="post" action="index.php" class="form-horizontal">
+					<div class="control-group">
+						<label class="control-label" for="identifiant">Identifiant</label>
 						<input type="text" class="form-control" id="identifiant" />
 					</div>
-					<div class="form-group">
-						<label for="motdepasse">Mot de passe</label>
+					<div class="control-group">
+						<label class="control-label" for="motdepasse">Mot de passe</label>
 						<input type="password" class="form-control" id="motdepasse" />
 					</div>
-					<button type="submit" class="btn btn-default">Connexion</button>
+					<div class="control-group">
+						<input type="hidden" name="envoye" value="oui" />
+						<button type="submit" class="btn btn-default">Connexion</button>
+					</div>
 				</form>
 			</div>
 		</div>
