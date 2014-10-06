@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
+		<meta name="author" content="netEmedia" />
+		<title>Site intranet M2L - Administrateur Salles</title>
+		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body role="document">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<p class="navbar-brand">M2L - Réservation des salles</p>
+                                        <p class="navbar-brand"><a href="../administrateur/utilisateurs.php">Utilisateurs</a></p>
+                                        <p class="navbar-brand"><a href="../administrateur/salles.php">Salles</a></p>
+                                        <p class="navbar-brand"><a href="../administrateur/reservations.php">Réservations</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="container theme-showcase" role="main">
+			<div>
+				<h1>Salles</h1>
+                                <FORM>
+                                    <INPUT type="checkbox" name="nouvelleSalle" value="1"> Nouvelle salle
+                                 </FORM>
+				<p class="lead">Choix du domaine :  <input type=text list=domaines >
+                                    <datalist id=domaines >
+                                       <option> Domaine 1
+                                       <option> Domaine 2
+                                    </datalist> 
+                                </p>
+                                <p class="lead">Choix de la salle :  <input type=text list=salles >
+                                    <datalist id=salles >
+                                       <option> Salle 1
+                                       <option> Salle 2
+                                    </datalist> 
+                                </p>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.js"></script>
+	</body>
+</html>
