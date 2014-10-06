@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
 		<meta name="author" content="netEmedia" />
-		<title>Site intranet M2L - Réservation des salles</title>
+		<title>Site intranet M2L - Accueil</title>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -24,8 +24,19 @@
 		</div>
 		<div class="container theme-showcase" role="main">
 			<div>
-				<h1>M2L</h1>
-				<p class="lead">Hello World !</p>
+				<h1>Accueil du site</h1>
+				<p class="lead">Veuillez saisir vos informations de connexion :</p>
+				<form role="form" action="index.php" method="post">
+					<div class="form-group">
+						<label for="identifiant">Identifiant</label>
+						<input type="text" class="form-control" id="identifiant" />
+					</div>
+					<div class="form-group">
+						<label for="motdepasse">Mot de passe</label>
+						<input type="password" class="form-control" id="motdepasse" />
+					</div>
+					<button type="submit" class="btn btn-default">Connexion</button>
+				</form>
 			</div>
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
