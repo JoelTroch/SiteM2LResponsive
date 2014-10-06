@@ -19,9 +19,9 @@
 			<div class="container">
 				<div class="navbar-header">
 					<p class="navbar-brand">M2L - Réservation des salles</p>
-                                        <p class="navbar-brand">Utilisateur</p>
-                                        <p class="navbar-brand">Salles</p>
-                                        <p class="navbar-brand">Réservation</p>
+                                        <p class="navbar-brand"><a href="../administrateur/utilisateurs.php">Utilisateurs</a></p>
+                                        <p class="navbar-brand"><a href="../administrateur/salles.php">Salles</a></p>
+                                        <p class="navbar-brand"><a href="../administrateur/reservations.php">Réservations</a></p>
 				</div>
 			</div>
 		</div>
