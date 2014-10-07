@@ -30,7 +30,7 @@
          			<ul class="nav navbar-nav">
             			<li><a href="index.php">Accueil</a></li>
             			<li class="active"><a href="#">Salles</a></li>
-            			<li><a href="#">Réservations</a></li>
+            			<li><a href="reservations.php">Réservations</a></li>
           			</ul>
           			<ul class="nav navbar-nav navbar-right">
           				<li class="active"><a href="../index.php">Se déconnecter</a></li>
