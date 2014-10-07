@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<p><a class="navbar-brand" href="#">M2L - Réservation des salles</a></p>
+					<p><a class="navbar-brand" href="#">M2L - Consultation des salles</a></p>
 				</div>
 				<div class="navbar-collapse collapse">
          			<ul class="nav navbar-nav">
@@ -39,10 +39,49 @@
 			</div>
 		</div>
 		<div class="container theme-showcase" role="main">
-			<div>
-				<h1>M2L</h1>
-				<p class="lead">Hello World !</p>
-			</div>
+			<h1>Salles</h1>
+			<p class="lead">Choix du domaine :
+				<select name="choixDomaine" class="form-control">
+					<option value="tous" selected>Tous les domaines</option>
+					<option value="multimedia">Multimédia</option>
+					<option value="reunion">Réunion</option>
+				</select>
+			</p>
+			<p class="lead">Choix de la salle :
+				<select name="choixSalle" class="form-control">
+					<option value="tous" selected>Toutes les salles</option>
+					<option value="amphitheatre">Amphithéâtre</option>
+					<option value="baccarat">Baccarat (Réunion)</option>
+					<option value="corbin">Corbin (Réunion)</option>
+					<option value="daum">Daum (Réunion)</option>
+					<option value="galle">Gallé (Réunion)</option>
+					<option value="lamour">Lamour (Réunion)</option>
+					<option value="longwy">Longwy (Réunion)</option>
+					<option value="majorelle">Majorelle (Réunion)</option>
+					<option value="multimedia">Multimédia</option>
+					<option value="reunion_etage">Réunion d'étage</option>
+				</select>
+			</p>
+			<table class="table">
+				<tr>
+					<th>Nom</th>
+					<th>Description</th>
+					<th>Salle concerné</th>
+					<th>Courriels des responsables</th>
+				</tr>
+				<tr>
+					<td>Lucien Sapin</td>
+					<td>Journée portes ouvertes M2L</td>
+					<td>Amphithéâtre</td>
+					<td><a href="mailto:lucien.sapin@m2l.fr">lucien.sapin@m2l.fr</a></td>
+				</tr>
+				<tr>
+					<td>Harley Quinn</td>
+					<td>Réunion pour la compétition du club de judo</td>
+					<td>Majorelle</td>
+					<td><a href="mailto:harley.quinn@m2l.fr">harley.quinn@m2l.fr</a></td>
+				</tr>
+			</table>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>

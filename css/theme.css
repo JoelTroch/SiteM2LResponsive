@@ -11,7 +11,7 @@ body
 	margin-bottom: 20px;
 }
 
-.theme-showcase
+.theme-showcase, th
 {
 	text-align: center;
 }
