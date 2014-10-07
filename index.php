@@ -23,24 +23,22 @@
 			</div>
 		</div>
 		<div class="container theme-showcase" role="main">
-			<div>
-				<h1>Accueil du site</h1>
-				<p class="lead">Veuillez saisir vos informations de connexion :</p>
-				<form method="post" action="index.php" class="form-horizontal">
-					<div class="control-group">
-						<label class="control-label" for="identifiant">Identifiant</label>
-						<input type="text" class="form-control" id="identifiant" />
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="motdepasse">Mot de passe</label>
-						<input type="password" class="form-control" id="motdepasse" />
-					</div>
-					<div class="control-group">
-						<input type="hidden" name="envoye" value="oui" />
-						<button type="submit" class="btn btn-default">Connexion</button>
-					</div>
-				</form>
-			</div>
+			<h1>Accueil du site</h1>
+			<p class="lead">Veuillez saisir vos informations de connexion :</p>
+			<form method="post" action="index.php" class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label" for="identifiant">Identifiant</label>
+					<input type="text" class="form-control" id="identifiant" />
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="motdepasse">Mot de passe</label>
+					<input type="password" class="form-control" id="motdepasse" />
+				</div>
+				<div class="control-group">
+					<input type="hidden" name="envoye" value="oui" />
+					<button type="submit" class="btn btn-default">Connexion</button>
+				</div>
+			</form>
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
