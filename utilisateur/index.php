@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<p><a class="navbar-brand" href="#">M2L - Réservation des salles</a></p>
+					<p><a class="navbar-brand" href="#">M2L - Accueil</a></p>
 				</div>
 				<div class="navbar-collapse collapse">
          			<ul class="nav navbar-nav">

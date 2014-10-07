@@ -18,7 +18,7 @@
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<p class="navbar-brand">M2L - Accueil</p>
+					<p><a class="navbar-brand" href="#">M2L - Connexion</a></p>
 				</div>
 			</div>
 		</div>
