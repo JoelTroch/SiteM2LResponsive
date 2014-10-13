@@ -73,7 +73,7 @@
 					<button type="submit" class="btn btn-default">Filtrer</button>
 				</div>
 			</form>
-			<table class="table">
+			<table class="table form-fix">
 				<tr>
 					<th>Nom</th>
 					<th>Description</th>
