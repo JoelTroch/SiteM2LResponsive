@@ -41,7 +41,7 @@
 		</div>
 		<div class="container theme-showcase" role="main">
 			<h1>Salles</h1>
-			<form method="post" action="index.php" role="form">
+			<form method="post" action="salles.php" role="form">
 				<div class="form-group">
 					<label for="choixDomaine">Choix du domaine</label>
 					<select name="choixDomaine" class="form-control form-fix">
