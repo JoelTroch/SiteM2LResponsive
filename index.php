@@ -25,17 +25,19 @@
 		<div class="container theme-showcase" role="main">
 			<h1>Accueil du site</h1>
 			<p class="lead">Veuillez saisir vos informations de connexion :</p>
-			<form method="post" action="index.php" class="form-horizontal">
-				<div class="control-group">
-					<label class="control-label" for="identifiant">Identifiant</label>
-					<input type="text" class="form-control" id="identifiant" />
+			<form method="post" action="index.php" role="form">
+				<div class="form-group">
+					<label for="identifiant">Identifiant</label>
+					<input type="text" class="form-control form-fix" id="identifiant" />
 				</div>
-				<div class="control-group">
-					<label class="control-label" for="motdepasse">Mot de passe</label>
-					<input type="password" class="form-control" id="motdepasse" />
+				<div class="from-group">
+					<label for="motdepasse">Mot de passe</label>
+					<input type="password" class="form-control form-fix" id="motdepasse" />
 				</div>
-				<div class="control-group">
+				<div class="form-group">
 					<input type="hidden" name="envoye" value="oui" />
+				</div>
+				<div class="form-group">
 					<button type="submit" class="btn btn-default">Connexion</button>
 				</div>
 			</form>
