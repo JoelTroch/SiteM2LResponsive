@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
 		<meta name="author" content="netEmedia" />
-		<title>Site intranet M2L - Administrateur Salles</title>
+		<title>Site intranet M2L - Administration salles</title>
 		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -15,35 +15,53 @@
 		<![endif]-->
 	</head>
 	<body role="document">
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<p class="navbar-brand">M2L - Réservation des salles</p>
-                                        <p class="navbar-brand"><a href="../administrateur/utilisateurs.php">Utilisateurs</a></p>
-                                        <p class="navbar-brand"><a href="../administrateur/salles.php">Salles</a></p>
-                                        <p class="navbar-brand"><a href="../administrateur/reservations.php">Réservations</a></p>
-				</div>
-			</div>
-		</div>
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Afficher/masquer menu de navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+			</button>
+			<p><a class="navbar-brand" href="#">M2L - Administration salles</a></p>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="utilisateurs.php">Utilisateurs</a></li>
+                            <li class="active"><a href="salles.php">Salles</a></li>
+                            <li><a href="reservations.php">Réservations</a></li>
+          		</ul>
+          		<ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Bruce Wayne (Administrateur)</a></li>
+                            <li class="active"><a href="../index.php">Se déconnecter</a></li>
+          		</ul>
+                    </div>
+                </div>
+            </div>
 		<div class="container theme-showcase" role="main">
-			<div>
-				<h1>Salles</h1>
-                                <FORM>
-                                    <INPUT type="checkbox" name="nouvelleSalle" value="1"> Nouvelle salle
-                                 </FORM>
-				<p class="lead">Choix du domaine :  <input type=text list=domaines >
-                                    <datalist id=domaines >
-                                       <option> Domaine 1
-                                       <option> Domaine 2
-                                    </datalist> 
-                                </p>
-                                <p class="lead">Choix de la salle :  <input type=text list=salles >
-                                    <datalist id=salles >
-                                       <option> Salle 1
-                                       <option> Salle 2
-                                    </datalist> 
-                                </p>
-			</div>
+                    <div class="control-group">
+                        <label class="control-label"for="salles">
+                            Choix de la salle :
+                        </label>
+                        <select name="salles" class="form-control">
+                            <option value="0"></option>
+                            <option value="1">Salle 1</option>
+                            <option value="2">Salle 2</option>
+                            <option value="3">Salle 3</option>
+                        </select>
+                        <br/>
+                        <label class="control-label"for="domaines">
+                            Choix du domaine :
+                        </label>
+                        <select name="domaines" class="form-control">
+                            <option value="0"></option>
+                            <option value="1">Domaine 1</option>
+                            <option value="2">Domaine 2</option>
+                            <option value="3">Domaine 3</option>
+                        </select>
+                    </div>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
