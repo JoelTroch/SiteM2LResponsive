@@ -77,7 +77,7 @@
 				<tr>
 					<th>Nom</th>
 					<th>Description</th>
-					<th>Salle concerné</th>
+					<th>Salle concernée</th>
 					<th>Courriels des responsables</th>
 				</tr>
 				<tr>
