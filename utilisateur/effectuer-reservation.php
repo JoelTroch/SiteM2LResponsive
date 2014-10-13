@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
 		<meta name="author" content="netEmedia" />
-		<title>Site intranet M2L - Consultation réservations</title>
+		<title>Site intranet M2L - Réservation</title>
 		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<p><a class="navbar-brand" href="#">M2L - Consultation réservations</a></p>
+					<p><a class="navbar-brand" href="#">M2L - Réservation</a></p>
 				</div>
 				<div class="navbar-collapse collapse">
          			<ul class="nav navbar-nav">
@@ -40,26 +40,42 @@
 			</div>
 		</div>
 		<div class="container theme-showcase" role="main">
-			<h1>Réservations</h1>
-			<p class="lead"><a href="effectuer-reservation.php">Effectuer une réservation</a></p>
-			<table class="table form-fix">
-				<tr>
-					<th>Libellé</th>
-					<th>Etat</th>
-					<th>Salle concernée</th>
-					<th>Date</th>
-					<th>Heure début</th>
-					<th>Heure fin</th>
-				</tr>
-				<tr>
-					<td>Réunion pour la compétition du club de judo</td>
-					<td>Terminé</td>
-					<td>Majorelle</td>
-					<td>13/10/14</td>
-					<td>13h30</td>
-					<td>14h30</td>
-				</tr>
-			</table>
+			<h1>Effectuer une réservation</h1>
+			<form method="post" action="salles.php" role="form">
+				<div class="form-group">
+					<label for="libelle">Libellé</label>
+					<textarea class="form-control form-fix" id="libelle" rows="2"></textarea>
+				</div>
+				<div class="from-group">
+					<label for="choixSalle">Salle</label>
+					<select name="choixSalle" class="form-control form-fix">
+						<option value="amphitheatre" selected>Amphithéâtre</option>
+						<option value="baccarat">Baccarat (Réunion)</option>
+						<option value="corbin">Corbin (Réunion)</option>
+						<option value="daum">Daum (Réunion)</option>
+						<option value="galle">Gallé (Réunion)</option>
+						<option value="lamour">Lamour (Réunion)</option>
+						<option value="longwy">Longwy (Réunion)</option>
+						<option value="majorelle">Majorelle (Réunion)</option>
+						<option value="multimedia">Multimédia</option>
+						<option value="reunion_etage">Réunion d'étage</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="heureDebut">Heure de début</label>
+					<input type="text" class="form-control form-fix" id="heureDebut" />
+				</div>
+				<div class="form-group">
+					<label for="heureFin">Heure de fin</label>
+					<input type="text" class="form-control form-fix" id="heureFin" />
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="envoye" value="oui" />
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-default">Vérifier la disponibilité</button>
+				</div>
+			</form>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
