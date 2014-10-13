@@ -41,28 +41,38 @@
 		</div>
 		<div class="container theme-showcase" role="main">
 			<h1>Salles</h1>
-			<p class="lead">Choix du domaine :
-				<select name="choixDomaine" class="form-control">
-					<option value="tous" selected>Tous les domaines</option>
-					<option value="multimedia">Multimédia</option>
-					<option value="reunion">Réunion</option>
-				</select>
-			</p>
-			<p class="lead">Choix de la salle :
-				<select name="choixSalle" class="form-control">
-					<option value="tous" selected>Toutes les salles</option>
-					<option value="amphitheatre">Amphithéâtre</option>
-					<option value="baccarat">Baccarat (Réunion)</option>
-					<option value="corbin">Corbin (Réunion)</option>
-					<option value="daum">Daum (Réunion)</option>
-					<option value="galle">Gallé (Réunion)</option>
-					<option value="lamour">Lamour (Réunion)</option>
-					<option value="longwy">Longwy (Réunion)</option>
-					<option value="majorelle">Majorelle (Réunion)</option>
-					<option value="multimedia">Multimédia</option>
-					<option value="reunion_etage">Réunion d'étage</option>
-				</select>
-			</p>
+			<form method="post" action="index.php" role="form">
+				<div class="form-group">
+					<label for="choixDomaine">Choix du domaine</label>
+					<select name="choixDomaine" class="form-control form-fix">
+						<option value="tous" selected>Tous les domaines</option>
+						<option value="multimedia">Multimédia</option>
+						<option value="reunion">Réunion</option>
+					</select>
+				</div>
+				<div class="from-group">
+					<label for="choixSalle">Choix de la salle</label>
+					<select name="choixSalle" class="form-control form-fix">
+						<option value="tous" selected>Toutes les salles</option>
+						<option value="amphitheatre">Amphithéâtre</option>
+						<option value="baccarat">Baccarat (Réunion)</option>
+						<option value="corbin">Corbin (Réunion)</option>
+						<option value="daum">Daum (Réunion)</option>
+						<option value="galle">Gallé (Réunion)</option>
+						<option value="lamour">Lamour (Réunion)</option>
+						<option value="longwy">Longwy (Réunion)</option>
+						<option value="majorelle">Majorelle (Réunion)</option>
+						<option value="multimedia">Multimédia</option>
+						<option value="reunion_etage">Réunion d'étage</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="envoye" value="oui" />
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-default">Filtrer</button>
+				</div>
+			</form>
 			<table class="table">
 				<tr>
 					<th>Nom</th>
