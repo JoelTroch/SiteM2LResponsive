@@ -41,7 +41,17 @@
 		</div>
 		<div class="container theme-showcase" role="main">
 			<h1>Réservations</h1>
-			<p class="lead">TODO : Faire le contenu de la page.</p>
+			<p class="lead"><a href="#">Effectuer une réservation</a></p>
+			<table class="table">
+				<tr>
+					<th>Libellé réservation</th>
+					<th>Salle concerné</th>
+				</tr>
+				<tr>
+					<td>Réunion pour la compétition du club de judo</td>
+					<td>Majorelle</td>
+				</tr>
+			</table>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
