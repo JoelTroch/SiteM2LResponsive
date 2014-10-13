@@ -24,15 +24,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<p><a class="navbar-brand" href="#">M2L - Accueil</a></p>
+					<p><a class="navbar-brand" href="#">M2L - Accueil utilisateur</a></p>
 				</div>
 				<div class="navbar-collapse collapse">
          			<ul class="nav navbar-nav">
-            			<li class="active"><a href="#">Accueil</a></li>
+            			<li class="active"><a href="index.php">Accueil</a></li>
             			<li><a href="salles.php">Salles</a></li>
             			<li><a href="reservations.php">Réservations</a></li>
           			</ul>
           			<ul class="nav navbar-nav navbar-right">
+          				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Harley Quinn (Utilisateur)</a></li>
           				<li class="active"><a href="../index.php">Se déconnecter</a></li>
           			</ul>
         		</div>
