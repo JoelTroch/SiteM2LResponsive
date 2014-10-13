@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
 		<meta name="author" content="netEmedia" />
-		<title>Site intranet M2L - Administrateur Utilisateurs</title>
+		<title>Site intranet M2L - Administration utilisateurs</title>
 		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -17,29 +17,47 @@
 	<body role="document">
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<p class="navbar-brand">M2L - Réservation des salles</p>
-                                        <p class="navbar-brand"><a href="../administrateur/utilisateurs.php">Utilisateurs</a></p>
-                                        <p class="navbar-brand"><a href="../administrateur/salles.php">Salles</a></p>
-                                        <p class="navbar-brand"><a href="../administrateur/reservations.php">Réservations</a></p>
-				</div>
+                            <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Afficher/masquer menu de navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+                                    </button>
+				<p><a class="navbar-brand" href="#">M2L - Administration utilisateurs</a></p>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.php">Accueil</a></li>
+                                    <li><a href="salle.php">Salles</a></li>
+                                    <li><a href="reservations.php">Réservations</a></li>
+                                    <li class="active"><a href="utilisateurs.php">Utilisateurs</a></li>
+          			</ul>
+          			<ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="../index.php">Se déconnecter</a></li>
+          			</ul>
+                            </div>
 			</div>
 		</div>
 		<div class="container theme-showcase" role="main">
-			<div>
-				<h1>Utilisateurs</h1>
-                                 <FORM>
-                                    <INPUT type="checkbox" name="nouvelUtilisateur" value="1"> Nouvel utilisateur
-                                 </FORM>
-				<p class="lead">Choix de l'utilisateur : 
-                                    <input type=text list=utilisateurs >
-                                    <datalist id=utilisateurs >
-                                       <option> Dupond Toto
-                                       <option> Durand Martin
-                                    </datalist>
-                                
-                                </p>
-			</div>
+                    <h1>Utilisateurs</h1>
+                    <form method="post" action = "utilisateurs.php" class="form-horizontal">
+                        <div class="control-group">
+                            <label class="control-label"for="utilisateurs">
+                                Utilisateur :
+                            </label>
+                            <select name="utilisateurs" class="form-control">
+                                <option value="0">Tous les utilisateurs</option>
+                                <option value="1">Marion Martin</option>
+                                <option value="2">Gérard Gégé</option>
+                                <option value="3">Luc Lamaison</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <input type="hidden" name="envoye" value="oui" />
+                            <button type="submit" class="btn btn-default">Filtrer</button>
+                        </div>
+                    </form>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
