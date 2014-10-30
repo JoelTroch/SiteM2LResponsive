@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<p><a class="navbar-brand" href="#">M2L - Consultation réservations</a></p>
+					<p><a class="navbar-brand" href="#">Consultation réservations</a></p>
 				</div>
 				<div class="navbar-collapse collapse">
          			<ul class="nav navbar-nav">
