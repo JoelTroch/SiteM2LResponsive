@@ -58,6 +58,32 @@
                         <input type="hidden" name="envoye" value="oui" />
                         <button type="submit" class="btn btn-default">Filtrer</button>
                     </div>
+                    <table class="table form-fix">
+			<tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Mail</th>
+                            <th>Selection action</th>
+			</tr>
+			<tr>
+                            <td>Martin</td>
+                            <td>Marion</td>
+                            <td><a href="mailto:martin.marion@m2l.fr">martin.marion@m2l.fr</a></td>
+                            <td>O</td>
+			</tr>
+			<tr>
+                            <td>Gégé</td>
+                            <td>Gérard</td>
+                            <td><a href="mailto:gege.gerard@m2l.fr">gege.gerard@m2l.fr</a></td>
+                            <td>X</td>
+			</tr>
+                        <tr>
+                            <td>Lamaison</td>
+                            <td>Luc</td>
+                            <td><a href="mailto:lamaison.luc@m2l.fr">lamaison.luc@m2l.fr</a></td>
+                            <td>X</td>
+			</tr>
+                    </table>
                 </form>
             </div>
             <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>

@@ -43,7 +43,7 @@
 		<div class="container theme-showcase" role="main">
 			<div>
 				<h1>M2L</h1>
-				<p class="lead">Hello World !</p>
+				<p class="lead">Page d'acceuil section administration</p>
 			</div>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>

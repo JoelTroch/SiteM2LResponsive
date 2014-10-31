@@ -62,6 +62,29 @@
                             <option value="3">Domaine 3</option>
                         </select>
                     </div>
+                    <div class="form-group">
+			<button type="submit" class="btn btn-default">Filtrer</button>
+                    </div>
+                    <table class="table form-fix">
+			<tr>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Max</th>
+                            <th>Courriels des responsables</th>
+			</tr>
+			<tr>
+                            <td>Nom 1</td>
+                            <td>37</td>
+                            <td>?</td>
+                            <td><a href="mailto:ethan.mars@m2l.fr">ethan.mars@m2l.fr</a></td>
+			</tr>
+			<tr>
+                            <td>Nom 2</td>
+                            <td>74</td>
+                            <td>?</td>
+                            <td><a href="mailto:jules.hugo@m2l.fr">jules.hugo@m2l.fr</a></td>
+			</tr>
+                    </table>
 		</div>
 		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
