@@ -33,7 +33,7 @@
                         <li><a href="reservations.php">Réservations</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Harley Quinn (Utilisateur)</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Martin Marion (Utilisatrice)</a></li>
                         <li class="active"><a href="../index.php">Se déconnecter</a></li>
                     </ul>
                 </div>
@@ -81,16 +81,16 @@
                     <th>Courriel du responsable</th>
 		</tr>
 		<tr>
-                    <td>Lucien Sapin</td>
+                    <td>Sapin Lucien</td>
                     <td>Journée portes ouvertes M2L</td>
                     <td>Amphithéâtre</td>
                     <td><a href="mailto:lucien.sapin@m2l.fr">lucien.sapin@m2l.fr</a></td>
 		</tr>
 		<tr>
-                    <td>Harley Quinn</td>
+                    <td>Martin Marion</td>
                     <td>Réunion pour la compétition du club de judo</td>
                     <td>Majorelle</td>
-                    <td><a href="mailto:harley.quinn@m2l.fr">harley.quinn@m2l.fr</a></td>
+                    <td><a href="mailto:marion.martin@m2l.fr">marion.martin@m2l.fr</a></td>
 		</tr>
             </table>
 	</div>
