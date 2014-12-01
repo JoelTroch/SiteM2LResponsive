@@ -60,6 +60,7 @@
                     <td>14h30</td>
 		</tr>
             </table>
+            <p class="lead"><a href="ApplicationFredi.apk">Téléchargez l'application pour Android</a></p>
         </div>
         <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
         <script type="text/javascript" src="../js/bootstrap.js"></script>
