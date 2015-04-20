@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-	<div class="container theme-showcase" role="main">
+        <div class="container theme-showcase" role="main">
             <h1>Réservations</h1>
             <p class="lead"><a href="effectuer-reservation.php">Effectuer une réservation</a></p>
             <table class="table form-fix">
@@ -50,15 +50,15 @@
                     <th>Date</th>
                     <th>Heure début</th>
                     <th>Heure fin</th>
-		</tr>
-		<tr>
+                </tr>
+                <tr>
                     <td>Réunion pour la compétition du club de judo</td>
                     <td>Terminé</td>
                     <td>Majorelle</td>
                     <td>13/10/14</td>
                     <td>13h30</td>
                     <td>14h30</td>
-		</tr>
+                </tr>
             </table>
             <p class="lead"><a href="ApplicationFredi.apk">Téléchargez l'application pour Android</a></p>
         </div>

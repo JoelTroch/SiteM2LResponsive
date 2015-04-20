@@ -2,17 +2,17 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
-	<meta name="author" content="netEmedia" />
-	<title>Site intranet M2L - Ajouter salle</title>
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
-	<!--[if lt IE 9]>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
+        <meta name="author" content="netEmedia" />
+        <title>Site intranet M2L - Ajouter salle</title>
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <!--[if lt IE 9]>
             <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
+        <![endif]-->
     </head>
     <body role="document">
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -46,21 +46,21 @@
                 <div class="form-group">
                     <label for="nom">Choix du domaine :</label>
                     <input type="text" id="nom" class="form-control form-fix" />
-		</div>
-		<div class="form-group">
+                </div>
+                <div class="form-group">
                     <label for="description">Description :</label>
                     <input type="text" id="description" class="form-control form-fix" />
-		</div>
-		<div class="form-group">
+                </div>
+                <div class="form-group">
                     <label for="max">Nombre maximum de personnes :</label>
                     <input type="numeric" id="max" class="form-control form-fix" />
-		</div>
+                </div>
                 <div class="form-group">
                     <input type="hidden" name="envoye" value="oui" />
-		</div>
+                </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-default">Ajouter</button>
-		</div>
+                </div>
             </form>
         </div>
         <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>

@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['envoye']))
 {
-	var_dump($_POST);
     if ($_POST['identifiant'] == 'admin' && $_POST['motdepasse'] == 'admin')
         header('Location: administrateur/index.php');
     else if ($_POST['identifiant'] == 'user' && $_POST['motdepasse'] == 'user')

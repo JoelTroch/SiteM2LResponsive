@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-	<div class="container theme-showcase" role="main">
+        <div class="container theme-showcase" role="main">
             <h1>Salles</h1>
             <form method="post" action="salles.php" role="form">
                 <div class="form-group">
@@ -49,52 +49,52 @@
                         <option value="multimedia">Multimédia</option>
                         <option value="reunion">Réunion</option>
                     </select>
-		</div>
-		<div class="from-group">
+                </div>
+                <div class="from-group">
                     <label for="salle">Choix de la salle :</label>
                     <select name="salle" class="form-control form-fix">
-			<option value="tous" selected>Toutes les salles</option>
-			<option value="amphitheatre">Amphithéâtre</option>
-			<option value="baccarat">Baccarat (Réunion)</option>
-			<option value="corbin">Corbin (Réunion)</option>
-			<option value="daum">Daum (Réunion)</option>
-			<option value="galle">Gallé (Réunion)</option>
-			<option value="lamour">Lamour (Réunion)</option>
-			<option value="longwy">Longwy (Réunion)</option>
-			<option value="majorelle">Majorelle (Réunion)</option>
-			<option value="multimedia">Multimédia</option>
-			<option value="reunion_etage">Réunion d'étage</option>
+                        <option value="tous" selected>Toutes les salles</option>
+                        <option value="amphitheatre">Amphithéâtre</option>
+                        <option value="baccarat">Baccarat (Réunion)</option>
+                        <option value="corbin">Corbin (Réunion)</option>
+                        <option value="daum">Daum (Réunion)</option>
+                        <option value="galle">Gallé (Réunion)</option>
+                        <option value="lamour">Lamour (Réunion)</option>
+                        <option value="longwy">Longwy (Réunion)</option>
+                        <option value="majorelle">Majorelle (Réunion)</option>
+                        <option value="multimedia">Multimédia</option>
+                        <option value="reunion_etage">Réunion d'étage</option>
                     </select>
-		</div>
-		<div class="form-group">
+                </div>
+                <div class="form-group">
                     <input type="hidden" name="envoye" value="oui" />
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-default">Filtrer</button>
-		</div>
+                </div>
             </form>
             <table class="table form-fix">
-		<tr>
+                <tr>
                     <th>Nom</th>
                     <th>Description</th>
                     <th>Salle concernée</th>
                     <th>Courriel du responsable</th>
-		</tr>
-		<tr>
+                </tr>
+                <tr>
                     <td>Sapin Lucien</td>
                     <td>Journée portes ouvertes M2L</td>
                     <td>Amphithéâtre</td>
                     <td><a href="mailto:lucien.sapin@m2l.fr">lucien.sapin@m2l.fr</a></td>
-		</tr>
-		<tr>
+                </tr>
+                <tr>
                     <td>Martin Marion</td>
                     <td>Réunion pour la compétition du club de judo</td>
                     <td>Majorelle</td>
                     <td><a href="mailto:marion.martin@m2l.fr">marion.martin@m2l.fr</a></td>
-		</tr>
+                </tr>
             </table>
-	</div>
-	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+        </div>
+        <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
         <script type="text/javascript" src="../js/bootstrap.js"></script>
     </body>
 </html>

@@ -39,14 +39,14 @@
                 </div>
             </div>
         </div>
-	<div class="container theme-showcase" role="main">
+        <div class="container theme-showcase" role="main">
             <h1>Accueil</h1>
             <p class="lead">Bienvenue sur la page d'accueil de la section utilisateur du site intranet.</p>
             <p class="lead">Pour consulter les informations sur les salles, cliquez sur le bouton "Salles" dans le menu en haut de l'écran.</p>
             <p class="lead">Les informations sur les réservations sont disponibles en cliquant sur le bouton "Réservations" dans le même menu.</p>
             <p class="lead">Vous pouvez vous déconnecter à tout moment en cliquant sur le bouton prévu à cet effet en haut à droite.</p>
         </div>
-	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
-	<script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
     </body>
 </html>

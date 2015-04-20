@@ -2,17 +2,17 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
-	<meta name="author" content="netEmedia" />
-	<title>Site intranet M2L - Ajouter réservation</title>
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
-	<!--[if lt IE 9]>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Site intranet pour la réservation des salles de la Maison des Ligues de Lorraine" />
+        <meta name="author" content="netEmedia" />
+        <title>Site intranet M2L - Ajouter réservation</title>
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/bootstrap-theme-colors.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <!--[if lt IE 9]>
             <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
+        <![endif]-->
     </head>
     <body role="document">
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -46,17 +46,17 @@
                 <div class="form-group">
                     <label for="libelle">Libellé :</label>
                     <textarea class="form-control form-fix" id="libelle" rows="2"></textarea>
-		</div>
+                </div>
                 <div class="from-group">
                     <label for="salle">Salle :</label>
                     <select name="salle" class="form-control form-fix">
-			<option value="amphitheatre" selected>Amphithéâtre</option>
-			<option value="baccarat">Baccarat (Réunion)</option>
+                        <option value="amphitheatre" selected>Amphithéâtre</option>
+                        <option value="baccarat">Baccarat (Réunion)</option>
                         <option value="corbin">Corbin (Réunion)</option>
-			<option value="daum">Daum (Réunion)</option>
-			<option value="galle">Gallé (Réunion)</option>
-			<option value="lamour">Lamour (Réunion)</option>
-			<option value="longwy">Longwy (Réunion)</option>
+                        <option value="daum">Daum (Réunion)</option>
+                        <option value="galle">Gallé (Réunion)</option>
+                        <option value="lamour">Lamour (Réunion)</option>
+                        <option value="longwy">Longwy (Réunion)</option>
                         <option value="majorelle">Majorelle (Réunion)</option>
                         <option value="multimedia">Multimédia</option>
                         <option value="reunion_etage">Réunion d'étage</option>
@@ -65,14 +65,14 @@
                 <div class="form-group">
                     <label for="heureDebut">Heure de début :</label>
                     <input type="text" class="form-control form-fix" id="heureDebut" />
-		</div>
-		<div class="form-group">
+                </div>
+                <div class="form-group">
                     <label for="heureFin">Heure de fin :</label>
                     <input type="text" class="form-control form-fix" id="heureFin" />
                 </div>
                 <div class="form-group">
                     <input type="hidden" name="envoye" value="oui" />
-		</div>
+                </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-default">Vérifier la disponibilité</button>
                 </div>
