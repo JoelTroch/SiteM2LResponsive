@@ -43,9 +43,9 @@
         <div class="container theme-showcase" role="main">
             <h1>Utilisateurs</h1>
             <p class="lead"><a href="utilisateurs-ajouter.php">Ajouter un utilisateur</a></p>
-            <form method="post" action = "utilisateurs.php" class="form-horizontal">
+            <form method="post" action="utilisateurs.php" class="form-horizontal">
                 <div class="form-group">
-                    <label class="control-label"for="utilisateur">Utilisateur :</label>
+                    <label class="control-label">Utilisateur :</label>
                     <select name="utilisateurs" class="form-control form-fix">
                         <option value="0">Tous les utilisateurs</option>
                         <option value="1">Lucien Sapin</option>

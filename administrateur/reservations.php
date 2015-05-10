@@ -46,7 +46,7 @@
             <form method="post" action="reservations.php" role="form">
                 <div class="form-group">
                     <label class="control-label" for="salle">Choix de la salle :</label>
-                    <select name="salle" class="form-control form-fix">
+                    <select name="salle" id="salle" class="form-control form-fix">
                         <option value="tous" selected>Toutes les salles</option>
                         <option value="amphitheatre">Amphithéâtre</option>
                         <option value="baccarat">Baccarat (Réunion)</option>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="utilisateur">Choix de l'utilisateur :</label>
-                    <select name="utilisateur" class="form-control form-fix">
+                    <select name="utilisateur" id="utilisateur" class="form-control form-fix">
                         <option value="0" selected>Tous les utilisateurs</option>
                         <option value="1">Lucien Sapin</option>
                         <option value="2">Marion Martin</option>

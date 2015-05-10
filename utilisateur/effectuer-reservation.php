@@ -172,7 +172,7 @@ if (isset($_POST['envoye']))
                 </div>
                 <div class="form-group">
                     <label for="salle">Salle :</label>
-                    <select name="salle" class="form-control form-fix">
+                    <select name="salle" id="salle" class="form-control form-fix">
                     <?php
                     try
                     {

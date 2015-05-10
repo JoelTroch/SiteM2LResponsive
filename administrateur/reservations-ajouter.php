@@ -49,7 +49,7 @@
                 </div>
                 <div class="from-group">
                     <label for="salle">Salle :</label>
-                    <select name="salle" class="form-control form-fix">
+                    <select name="salle" id="salle" class="form-control form-fix">
                         <option value="amphitheatre" selected>Amphithéâtre</option>
                         <option value="baccarat">Baccarat (Réunion)</option>
                         <option value="corbin">Corbin (Réunion)</option>

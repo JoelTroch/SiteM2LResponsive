@@ -46,7 +46,7 @@
             <form method="post" action="salles.php" role="form">
                 <div class="form-group">
                     <label for="domaine">Choix du domaine :</label>
-                    <select name="domaine" class="form-control form-fix">
+                    <select name="domaine" id="domaine" class="form-control form-fix">
                         <option value="tous" selected>Tous les domaines</option>
                         <option value="multimedia">Multimédia</option>
                         <option value="reunion">Réunion</option>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="from-group">
                     <label for="salle">Choix de la salle :</label>
-                    <select name="salle" class="form-control form-fix">
+                    <select name="salle" id="salle" class="form-control form-fix">
                         <option value="tous" selected>Toutes les salles</option>
                         <option value="amphitheatre">Amphithéâtre</option>
                         <option value="baccarat">Baccarat (Réunion)</option>
